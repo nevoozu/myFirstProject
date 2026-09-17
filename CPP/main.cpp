@@ -8,20 +8,15 @@
 using namespace std;
 
 int main() {
-    int amm, leng;
+    int amm, gr = 0;
     cin >> amm;
-    vector<string> v(amm);
+    int q, w, e;
     for (int i = 0; i < amm; i++) {
-        cin >> v[i];
-    }
-    for (int i = 0; i < amm; i++) {
-        leng = v[i].size();
-        if (leng > 10) {
-            cout << v[i][0] << leng - 2 << v[i][leng - 1] << "\n";
-        }
-        else {
-            cout << v[i] << "\n";
+        cin >> q >> w >> e;
+        if (q + w + e >= 2) {
+            gr += 1;
         }
     }
+    cout << gr << "\n";
     return 0;
 }
