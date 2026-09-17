@@ -8,15 +8,10 @@
 using namespace std;
 
 int main() {
-    int amm, gr = 0;
-    cin >> amm;
-    int q, w, e;
-    for (int i = 0; i < amm; i++) {
-        cin >> q >> w >> e;
-        if (q + w + e >= 2) {
-            gr += 1;
-        }
-    }
-    cout << gr << "\n";
+    int amm, x, y, dN;
+    cin >> x >> y;
+    amm = x * y;
+    dN = amm / 2;
+    cout << dN << "\n";
     return 0;
 }
