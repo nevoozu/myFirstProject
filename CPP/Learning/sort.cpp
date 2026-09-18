@@ -20,3 +20,7 @@ int main() {
         cout << v[i] << " ";
     }
 }
+
+//sort(name.begin(), name.end())
+//From low to high: 20 50 10 = 10 20 50
+//(binary_search(v.begin(), v.end(), x))

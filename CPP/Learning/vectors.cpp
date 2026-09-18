@@ -16,3 +16,6 @@ int main() {
         cout << v[i] << " ";
     }
 }
+
+//vector<type> name(len)   <vector>
+//cout << name - WRONG

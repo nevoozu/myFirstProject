@@ -21,3 +21,5 @@ int main() {
     cout << Sn << "\n" << amm;
     return 0;
 }
+
+//.size()   <string>   
